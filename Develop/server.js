@@ -3,8 +3,7 @@ const api = require('./routes/index');
 const path = require('path');
 const PORT = 3001;
 const app = express();
-
-//const notes = require('./routes/notes.js');
+;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
